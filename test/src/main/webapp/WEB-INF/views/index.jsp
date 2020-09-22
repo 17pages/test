@@ -78,12 +78,12 @@ padding-top : 5px;
 		</div>
 
 		<div class="content_wrap">
-			<form name="" action="" method="post" class="" id="">
+			<form name="" action="upload" method="post" class="" id="" enctype="multipart/form-data">
 			<div class="content_in_wrap">
 				<div class="content_in">
 					<div>[fasta 파일]</div>
 					<div class="put_file">
-						<input type="file" name="fasta_file" id="fasta_file">
+						<input type="file" name="fasta_file" id="fasta_file" multiple="multiple">
 					</div>
 					<div class="option_choice">
 						<table>
@@ -103,7 +103,7 @@ padding-top : 5px;
 					<div class="start_button_wrap">
 						<div class="start_button">
 							<input type="reset" name="" value="Reset">
-							<input type="button" name="" value="Start">
+							<input type="submit" name="" value="Start">
 						</div>
 					</div>
 				</div>
