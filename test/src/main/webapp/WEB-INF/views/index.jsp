@@ -78,12 +78,12 @@ padding-top : 5px;
 		</div>
 
 		<div class="content_wrap">
-			<form name="" action="upload" method="post" class="" id="" enctype="multipart/form-data">
+			<form name="" action="upload" method="post" class="" id="form1" enctype="multipart/form-data" target="repacetFrame">
 			<div class="content_in_wrap">
 				<div class="content_in">
 					<div>[fasta 파일]</div>
 					<div class="put_file">
-						<input type="file" name="fasta_file" id="fasta_file" multiple="multiple">
+						<input type="file" name="file1" id="fasta_file" multiple="multiple">
 					</div>
 					<div class="option_choice">
 						<table>
@@ -114,6 +114,8 @@ padding-top : 5px;
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
+var result = '${savedName}';
+parent.addFilepath(result);
 
 
 </script>
